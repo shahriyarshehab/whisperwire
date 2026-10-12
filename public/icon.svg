@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00a884" />
+      <stop offset="100%" stop-color="#075e54" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#25d366" />
+      <stop offset="100%" stop-color="#128c7e" />
+    </linearGradient>
+  </defs>
+  <!-- Background with squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#emeraldGrad)" />
+  
+  <!-- Outer Glow Ring -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="rgba(255, 255, 255, 0.15)" stroke-width="8" />
+
+  <!-- WhatsApp-style Chat Bubble Silhouette -->
+  <path d="M256 100 C170 100 100 170 100 256 C100 286 108 314 124 338 L104 408 L178 388 C201 403 228 412 256 412 C342 412 412 342 412 256 C412 170 342 100 256 100 Z" fill="#ffffff" fill-opacity="0.12" />
+
+  <!-- Center Shield Lock Emblem (E2EE) -->
+  <path d="M256 148 L340 188 C340 270 300 326 256 356 C212 326 172 270 172 188 Z" fill="#ffffff" />
+  
+  <!-- Inner Cutout Lock Hole -->
+  <path d="M256 216 C243 216 232 227 232 240 C232 248 236 255 242 259 L238 290 L274 290 L270 259 C276 255 280 248 280 240 C280 227 269 216 256 216 Z" fill="#005c4b" />
+</svg>

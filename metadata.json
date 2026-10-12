@@ -1,0 +1,6 @@
+{
+  "name": "WhisperWire - Encrypted Messenger",
+  "description": "End-to-end encrypted messaging with self-destructing disappearing messages, Google Contacts sync, and Google Chat integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
